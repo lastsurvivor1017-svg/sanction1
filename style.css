@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+}
+.herodiv
+{
+    width: 100%;
+    height: 700px;
+    background-color: #000000;
+}
+.head
+{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.par
+{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.imagehr
+{
+    width: 60px;
+    height: 8px;
+    flex-direction: column;
+
+}
+.herodiv
+{
+    width: 100%;
+    height: 750px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divpar
+{
+    width: 255px;
+    height: 58px;
+    color: #FFFFFF;
+}
+.imageworld
+{
+    width: 45%;
+    height: 90%;
+    background-image: url(./de3ad16368d4039c48f7309b80cd0b1cde3dc481.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.par1
+{
+    width: 50%;
+    height: 114px;
+    position: absolute;
+    right: 400px;
+    bottom: 400px;
+    display: flex;
+}
+.right
+{
+position: relative;
+right: 408px;
+}
+.left
+{
+    margin-left: 300px;
+}
+.btn
+{
+    width: 150px;
+    height: 50%;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 15px;
+    border: none;
+}
+.h1h
+{
+ font-size: 45px;
+}
+.btn1
+{
+    width: 250px;
+    height: 55px;
+    position: absolute;
+    border-radius: 15px;
+}
+@media(max-width: 510px)
+{
+    .head
+    {
+        justify-content: space-between;
+    }
+    .herodiv
+    {
+        height: 1000px;
+        flex-direction: column;
+    }
+    .imageworld
+    {
+        width: 100%;
+        height: 40%;
+        position: relative;
+        bottom: 170px;
+    }
+    .top
+    {
+        position: absolute;
+        right: 200px;
+        width: 198px;
+        height: 80px;
+    }
+    .topright
+    {
+        width: 158px;
+        position: absolute;
+        left: 230px;
+    }
+    .par1
+    {
+        width: 100%;
+        height: 150px;
+        position: relative;
+        left: 1px;
+    }
+    .h1h
+    {
+        position: relative;
+        bottom: 65px;
+    }
+    .btn1
+    {
+       position: relative;
+       top: 50px;
+    }
+}
